@@ -19,7 +19,6 @@ func ConfigClient() (tenant.TenantClient, error) {
 		log.Fatal("Server Didn't connect", err)
 		return nil, err
 	}
-	log.Println(clientConnection, "clientConnection")
 	// register client with connect
 	stub := tenant.NewTenantClient(clientConnection)
 
