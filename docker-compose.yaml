@@ -1,0 +1,13 @@
+version: "3.2"
+services: 
+  tenant:
+    build: 
+      context: .
+    image: tenant-client
+    env_file: 
+      - ./.env
+    ports: 
+      - 6060:3030
+    container_name: tenant-client-app
+    
+
