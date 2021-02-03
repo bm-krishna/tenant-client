@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bm-krishna-source/tenant-client/internal/client"
-	"github.com/bm-krishna-source/tenant-service/pkg/api/tenant"
-	// "github.com/bm-krishna-source/tenant-service/pkg/api/tenant"
+	"github.com/bm-krishna/tenant-client/internal/client"
+	"github.com/bm-krishna/tenant-service/pkg/api/tenant"
+	// "github.com/bm-krishna/tenant-service/pkg/api/tenant"
 )
 
 type Service struct {

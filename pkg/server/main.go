@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/bm-krishna-source/tenant-client/internal/handlers"
+	"github.com/bm-krishna/tenant-client/internal/handlers"
 )
 
 // define all api endpints here
